@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get("/login", function(){
     return view("loginform");
 });
+
+Route::get("/keuzedeel", function(){
+    return view("keuzedeel");
+});
