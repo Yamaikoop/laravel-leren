@@ -1,6 +1,6 @@
-<x-layout>
+@extends("components.layout")
+@section("content")
     <h1>hallo op de login pagina</h1>
-</x-layout>
 
 
 <div>
@@ -35,3 +35,5 @@
     </select>
   </form>
 </div>
+
+@endsection

@@ -12,6 +12,6 @@
             <a href="/keuzedeel">keuzedeel</a>
         </nav>
         
-        {{  $slot  }}
+        @yield("content")
     </body>
     </html>

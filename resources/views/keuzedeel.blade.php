@@ -1,3 +1,4 @@
-<x-layout>
+@extends("components.layout")
+@section("content")
     <h1>hallo op de keuzedeel pagina</h1>
-</x-layout>
+@endsection
