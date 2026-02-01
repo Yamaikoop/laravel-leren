@@ -9,3 +9,38 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: rgb(15, 183, 0);
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+}
+#list{
+    display: flex;
+    justify-content: center;
+}
+form label{
+    flex-grow: 10;
+    display: flex;
+}
+form label input, form label select{
+    flex-grow: 10;
+}

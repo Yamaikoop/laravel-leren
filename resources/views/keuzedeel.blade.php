@@ -1,4 +1,4 @@
 @extends("components.layout")
 @section("content")
-    <h1>hallo op de keuzedeel pagina</h1>
+    <h1>welkom op de keuzedeel pagina</h1>
 @endsection
